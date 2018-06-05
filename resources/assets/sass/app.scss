@@ -1,0 +1,35 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600');
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+}
+
+.card-font-small {
+    font-size: 0.7rem;
+}
+
+.expanded-url {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.pagination-row {
+    .pagination {
+        justify-content: flex-end;
+    }
+}
