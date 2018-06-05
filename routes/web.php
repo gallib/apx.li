@@ -17,7 +17,7 @@ Route::get('/', 'ListController@index')->name('list');
 Route::group(
     [
         'prefix' => 'm',
-        'middleware' => ['auth']
+        'middleware' => ['auth'],
     ],
     function () {
         ShortUrl::createRoutes();

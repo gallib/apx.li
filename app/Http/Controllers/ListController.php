@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use Gallib\ShortUrl\Url;
-use Illuminate\Http\Request;
 
 class ListController extends Controller
 {
